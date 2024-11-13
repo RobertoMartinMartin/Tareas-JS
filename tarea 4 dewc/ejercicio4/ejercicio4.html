@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="styles/style4.css">
+    <script defer src="script/script4.js"></script>
+</head>
+<body>
+    <h1>JUGANDO CON CLASES Y METODOS - ASIGNATURA</h1>
+    <hr>
+    <div class="asignatura">
+        <h4>Crea tu asignatura</h4>
+        <input type="text" class="inputcreacion" id="nombre" placeholder="nombre asignatura">
+        <input type="number" class="inputcreacion" id="maximo" placeholder="max.alumnos">
+        <button id="crear">crear</button>
+    </div>
+    <div id="tuAsignatura"></div>
+    <nav class="menu">
+        <div class="anadir">
+            <h6>añadir alumno nuevo</h6>
+            <input type="text" id="alumno">
+            <button id="anyadir">añadir</button>
+        </div>
+        <div class="modificar">
+            <h6>modificar maximo de alumnos</h6>
+            <input type="number" id="nuevoMaximo">
+            <button id="modificar">modificar</button>
+        </div>
+        <div class="eliminar">
+            <h6>eliminar alumno por indice</h6>
+            <input type="number" id="indice">
+            <button id="eliminar">eliminar</button>
+        </div>
+        <div class="listar">
+            <button id="listar">listar alumnos</button>
+        </div>
+    </nav>
+    <div id="consola" class="consola">
+
+    </div>
+
+    
+</body>
+</html>
